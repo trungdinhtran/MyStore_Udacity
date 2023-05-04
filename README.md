@@ -1,12 +1,15 @@
 # MyStore Project Overview
 
-MyStore is Angular application that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process. 
+MyStore a full single-page ecommerce application with Angular that allows users to view a list of available products to purchase, add them to a shopping cart, and ultimately complete the checkout process. 
 
-## Getting Started
+## Key features and functionalities
 
-To use these files, simply merge the folders into the root directory of your scaffolded Angular application.
-
-## Project Instructions
+* View list of product
+* Details page for a product shows a photo of the product, the name, the price, and the description.
+* Add product to cart
+* Shows a total cost for all products in the cart
+* Input forms are validated
+* Feedback is given to the user when the cart is modified
 
 #### Project introduction: MyStore
 
