@@ -15,15 +15,5 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.cartProductList = this.cartService.getCartProduct();
-    // this.calculate(this.cartProductList);
   }
-
-  // calculate(cart: Product[]) {
-  //   let sum = 0;
-  //   cart.forEach((item) => {
-  //     sum += Number(item.amount);
-  //   });
-  //   const ele = document.getElementById('cartAmount') as HTMLElement;
-  //   ele.innerHTML = sum.toString();
-  // }
 }

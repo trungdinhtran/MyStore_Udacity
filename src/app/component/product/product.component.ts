@@ -12,7 +12,7 @@ import { ProductService } from 'src/app/service/product.service';
 export class ProductComponent implements OnInit {
   @Input() productItem!: Product;
   selectedItem = '1';
-  productCount: string[] = ['1', '2', '3', '4', '5'];
+  productCount: string[] = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 
   constructor(
     private productService: ProductService,
